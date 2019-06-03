@@ -13,8 +13,8 @@ Since react native >0.59 netinfo has been deprecated, so if you haven't please r
     // or
     npm install --save @react-native-community/netinfo
 
-Add the following line to AndroidManifest.xml: 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+Add the following line for permission to AndroidManifest.xml: 
+    android:name="android.permission.ACCESS_NETWORK_STATE"
 
 You then need to link the native parts of the library for the platforms you are using. The easiest way to link the library is using the CLI tool by running this command from the root of your project:
 
