@@ -27,6 +27,7 @@ To know more about netinfo click [`here`](https://github.com/react-native-commun
 
 Usage example: 
 
+    //import HOC from react-native-network-toast
     import { withNetwork } from "react-native-network-toast";
 
     class YourComponent extends Component {
