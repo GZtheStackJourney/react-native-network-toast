@@ -81,6 +81,14 @@ Android Screenshot:
 
 API Help
 
+adding function to setupNetworkRetry.
+
+| Arguments | Explanation | defaults |
+| --- | --- | --- |
+| functions | takes in a function only | void |
+
+configuring withNetwork(arguments).
+
 | Arguments        | Explanation | defaults       |
 | -------------    | ----------- | -------------  |
 | `buttonText` | text for retry button | Retry          |
