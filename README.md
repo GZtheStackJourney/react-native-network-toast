@@ -80,16 +80,16 @@ Android Screenshot:
 
 API Help
 
-    | Arguments        | Explanation | defaults       |
-    | -------------    | ----------- | -------------  |
-    | `buttonText` | text for retry button | Retry          |
-    | `buttonStyles` | styles for button container | default styles |
-    | `buttonTextStyles` | styles for button text | default styles |
-    | `containerStyles` | styles for toast container | default styles |
-    | `messageStyles` | styles for toast message | default styles |
-    | `messageText` | text for toast message | No Connection  |
-    | `position` | postion of toast message | bottom |
-    | `positionOffset` | how much should toast offset | 0 for bottom 30 for top |
+| Arguments        | Explanation | defaults       |
+| -------------    | ----------- | -------------  |
+| `buttonText` | text for retry button | Retry          |
+| `buttonStyles` | styles for button container | default styles |
+| `buttonTextStyles` | styles for button text | default styles |
+| `containerStyles` | styles for toast container | default styles |
+| `messageStyles` | styles for toast message | default styles |
+| `messageText` | text for toast message | No Connection  |
+| `position` | postion of toast message | bottom |
+| `positionOffset` | how much should toast offset | 0 for bottom 30 for top |
 
 
 
