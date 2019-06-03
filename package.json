@@ -1,0 +1,32 @@
+{
+  "name": "react-native-network-toast",
+  "version": "1.0.0",
+  "description": "Network toast for react native screens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GZtheStackJourney/react-native-network-toast.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "netinfo",
+    "toast",
+    "toast-message",
+    "react-component",
+    "android"
+  ],
+  "peerDependencies": {
+    "react-native": ">=0.50.0",
+    "@react-native-community/netinfo": ">=3.0.0"
+  },
+  "author": "gzliew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GZtheStackJourney/react-native-network-toast/issues"
+  },
+  "homepage": "https://github.com/GZtheStackJourney/react-native-network-toast"
+}
