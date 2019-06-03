@@ -80,7 +80,7 @@ Android Screenshot:
 
 ![Screenshot](android_screenshot2.png)
 
-##API Help
+### API Help
 
 adding function to setupNetworkRetry.
 
