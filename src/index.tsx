@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import {
   View,
   Text,
@@ -9,9 +9,32 @@ import {
 } from "react-native";
 import NetInfo from "@react-native-community/netinfo";
 
-export const withNetwork = (incomingArgs = {}) => WrappedComponent =>
+interface IncomingArguments {
+  buttonText?: string,
+  buttonStyles?: any,
+  buttonTextStyles?: any,
+  containerStyles?: any,
+  messageStyles?: any,
+  messageText?: string,
+  position?: string,
+  positionOffset?: number
+}
+
+interface State {
+  connected: boolean,
+  modalVisible: boolean,
+  message: string,
+  buttonText: string,
+  onRetry?: any,
+  positionValue?: any
+}
+
+export const withNetwork = (incomingArgs: IncomingArguments = {}) => (WrappedComponent: any) =>
   class C extends React.PureComponent {
-    constructor(props) {
+    unsubscribeNetworkListener: any;
+    state: State;
+
+    constructor(props: any) {
       super(props);
       this.state = {
         connected: true,
@@ -75,7 +98,7 @@ export const withNetwork = (incomingArgs = {}) => WrappedComponent =>
       );
     }
 
-    _setOnRetryBtn = onRetry => {
+    _setOnRetryBtn = (onRetry: Function) => {
       this.setState({
         onRetry
       });
