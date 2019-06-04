@@ -1,7 +1,7 @@
 {
   "name": "react-native-network-toast",
-  "version": "1.1.5",
-  "main": "dist/index.jsx",
+  "version": "1.1.6",
+  "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "description": "Network toast for react native screens",
   "scripts": {
