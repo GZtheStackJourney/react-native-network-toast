@@ -47,7 +47,7 @@ export const withNetwork = (incomingArgs: IncomingArguments = {}) => (WrappedCom
     }
 
     componentDidMount() {
-      this.unsubscribeNetworkListener = NetInfo.addEventListener(state => {
+      this.unsubscribeNetworkListener = NetInfo.addEventListener((state: any) => {
         this.setState({ connected: state.isConnected });
         if (!state.isConnected) {
           this._showToast();
